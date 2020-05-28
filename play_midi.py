@@ -6,16 +6,15 @@ Created on Wed May 27 19:26:04 2020
 
 # play a midi note
 
-# fm  =  2**((m−69)/12)*(440 Hz).
-#  12*log2(fm/440 Hz) + 69 
+# f = 2**((m−69)/12)*(440 Hz).
+# m = 12*log2(f/440 Hz) + 69 
 
 
 # to go one octave higher, add 12 to midi #
 
 
-# Conversely, one can obtain n, the number of semitones from A4, from
+# the number of semitones from A4: 
 # n  =  12*log2(fn/440 Hz)
-# n/12
 
 
 import math
@@ -49,6 +48,8 @@ def play_audio(audio, channels, sample_rate):
     audio = audio.astype(n.int16)
     play_obj = sa.play_buffer(audio, 2, channels, sample_rate)
     play_obj.wait_done()
+    
+    
 
 inp = [53,54,55,56,57]
 
