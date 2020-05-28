@@ -12,9 +12,10 @@ Scripts included:
 * Play notes
 
 
-### Random Walk (jython version)
-
-
 ### Serial Music - 1
 * Generate a piece of Serial Music (12 notes)
 * Apply the following algorithms - Forward, Backward (Retrograde), Upside-Down, Backward + Upside-Down
+
+
+## Jython Scripts
+* Random Walk using Jython
