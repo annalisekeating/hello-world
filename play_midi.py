@@ -3,7 +3,7 @@
 """
 Created on Wed May 27 19:26:04 2020
 
-@author: basak
+@author: 
 """
 
 # play a midi note
