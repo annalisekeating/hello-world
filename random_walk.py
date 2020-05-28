@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+'''
+Random walk = the next note is one note before of after the previous note
+'''
+
 import random
 import numpy as n
 import simpleaudio as sa
@@ -31,15 +35,16 @@ def play_audio(audio, channels, sample_rate):
     play_obj.wait_done()
 
 
+# one semitone
 a = [0,1,2,3,4,5,6,7,8,9,10,11]
 
 seed = random.randint(0,len(a))
-
-steps = [seed]
+steps = [seed] # frist element
 
 len_comp = 64 # number of notes
 
 startnote = 53
+# generating notes 
 for i in range(len_comp):
     boop = random.randint(0,1)
     if boop == 0:
