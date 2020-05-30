@@ -72,6 +72,6 @@ def dist_fun(name, N):
 
 
 
-name = 'as'
+name = 'convex'
 x = dist_fun(name, 5)
 print(x)
