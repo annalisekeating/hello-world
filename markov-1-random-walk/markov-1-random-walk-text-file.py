@@ -7,8 +7,6 @@ Random walk in C Major.
 
 """
 
-
-
 F = open('probabilities-markov-1-random-walk.txt','w')
 
 
