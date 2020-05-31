@@ -16,6 +16,10 @@ Scripts included:
 * Generate a piece of Serial Music (12 notes)
 * Apply the following algorithms - Forward, Backward (Retrograde), Upside-Down, Backward + Upside-Down
 
+### Markov 1
+* First order Markov Chains
+* Random Walk using a first order Markov Chain
+
 
 ## Jython Scripts
 * Random Walk using Jython
