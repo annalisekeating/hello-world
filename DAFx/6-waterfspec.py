@@ -3,11 +3,7 @@
 """
 Created on Thu Jun 25 20:10:44 2020
 
-Waterfspec in python using matplotlib and numpy
-
-This was created in 98 by Schattschneider on MATLAB
-but i am a neanderthal. Hence im doing it 22 years later.
-
+Waterfspec in python
 
 """
 
@@ -20,7 +16,7 @@ import custom_functions as c
 
 
 # import a wavefile
-filename = 'sunshine5.wav'
+filename = '_______.wav'
 print('Reading Input..')
 wavobj = wavio.read(filename)
 x = wavobj.data
