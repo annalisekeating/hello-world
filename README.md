@@ -12,7 +12,7 @@ Scripts included:
 * Play notes
 
 
-### Serial Music - 1
+### Serial Music 1
 * Generate a piece of Serial Music (12 notes)
 * Apply the following algorithms - Forward, Backward (Retrograde), Upside-Down, Backward + Upside-Down
 
@@ -20,6 +20,9 @@ Scripts included:
 * First order Markov Chains
 * Random Walk using a first order Markov Chain
 
+### DAFx
+* Some filtering-related scripts using python.
+* 3D Plotting the Short-Time Fourier Transform
 
 ## Jython Scripts
 * Random Walk using Jython
