@@ -1,6 +1,7 @@
 # Musical Scripts
 
-Scripts included:
+### 1-D Cellular Automata
+* Notebook
 
 ### Play Midi
 * Generate midi notes from frequencies (and vice versa)
